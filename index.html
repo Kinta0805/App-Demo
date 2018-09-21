@@ -1,0 +1,100 @@
+<!DOCTYPE hhtml>
+<html lang="em">
+
+					
+<head>
+					<title>Login</title>
+					<meta charset="UFT-8/>
+					<meta name="viewport" content="width=device-width,initial-scale=1.0">
+					<link rel="stylesheet" type="text/css"href="CSS/style.css">
+					<link rel="stylesheet" type="text/css"href="CSS/bootstrap.min.css">
+						
+					
+<style>
+
+body {
+   background-image: url("min.jpg");
+   background-color: #cccccc;
+    background:  url("tec.jpg") no-repeat center center field;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 5px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: 1px solid #121923;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for the submit/register button */
+.loginbtn {
+  background-color: #3a3d44;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.8;
+  
+}
+
+.loginbtn:hover {
+  opacity:5;
+}
+
+
+
+
+
+
+</style>					
+					
+</head>
+<center>
+<body>
+
+
+
+  <img src="icon.png"  width="70" height="70">
+<form action="action_page.php">
+  <div class="container">
+
+    
+
+    
+	<input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+    <button type="submit" class="loginbtn">LOGIN</button>
+  </div>
+
+  <div class="container signin">
+  
+   <a href="register.html">Register Here</a>
+  </div>
+</form>
+</center>
+</body>

@@ -1,0 +1,106 @@
+<!DOCTYPE hhtml>
+<html lang="em">
+
+					
+<head>
+					<meta charset="UFT-8/>
+					<meta name="viewport" content="width=device-width,initial-scale=1.0">
+					<title>APP Demo</title>
+					<link rel="stylesheet" type="text/css"href="CSS/style.css">
+					<link rel="stylesheet" type="text/css"href="CSS/bootstrap.min.css">
+					
+<style>
+body {
+   background-image: url("b.png");
+   background-color: #cccccc;
+    background:  url("tec.jpg") no-repeat center center field;
+ -webkit-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+ 
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #121923;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+   border: 1px solid #0a0b0c;
+  margin-bottom: 25px
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #313a49 ;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+.container1 p{
+color: white;
+}
+
+
+
+</style>					
+					
+</head>
+<center>
+<body>
+ 
+<form action="action_page.php">
+  <div class="container">
+    <h1>REGISTER</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    
+	<input type="text" placeholder="Enter Email" name="email" required><br><br>
+
+
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+
+   
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br><br>
+    <hr>
+
+    <button type="submit" class="registerbtn">SUBMIT</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="index.html">SIGN IN</a>.</p>
+  </div>
+</form>
+</center>
+</body>
